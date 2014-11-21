@@ -33,7 +33,29 @@ ul.navbar {
 	text-align: center;
 }
 
+.center {
+	vertical-align: center;
+	display: block;
+	width: 50%;
+	clear:both;
+	margin: auto;
+	padding: 10px;
+}
 
+.filter-white {
+	background-color: white;
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.schedule th {
+	text-align: left;
+	padding-right: 10px;
+}
+
+.schedule td {
+	text-align: left;
+}
 .nav-elem a {
 	display: inline-block;
 	padding: 0px 20px 0px 20px;
@@ -73,17 +95,20 @@ ul.navbar {
 #overview {
 	position: absolute;
 	top: 100%;
-/*	background-image: url('shapes.jpg');
-	background-size: 100%;*/
+	background-image: url('shapes.jpg');
+	background-size: 100%;
 }
 
 #logistics {
 	position: absolute;
 	top:200%;
+	
 }
 #materials {
 	position: absolute;
 	top: 300%;
+	background-image: url('neal-final.jpg');
+	background-size: 100%;
 }
 #schedule {
 	position: absolute;
@@ -148,6 +173,7 @@ ul.navbar {
 
 .textbox {
 	width: 40%;
+	padding:10px;
 }
 
 hr {
